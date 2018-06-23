@@ -1,0 +1,88 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Uper do zamawiania autobusów",
+      "tags": ["transport", "taxi", "mapy", "zamawianie"],
+      "comments": [
+        {
+          "id": 1,
+          "x": 200,
+          "y": 100,
+          "author": "Piękny Grzegorz z marketingu",
+          "content":
+            "Fusce euismod posuere elit, sit amet posuere ex dapibus eleifend. Praesent accumsan, metus id tincidunt lobortis, elit tortor maximus nunc, id efficitur tellus libero eget tortor."
+        },
+        {
+          "id": 2,
+          "x": 200,
+          "y": 100,
+          "author": "Stefan CTO",
+          "content":
+            "Fusce euismod posuere elit, sit amet posuere ex dapibus eleifend. Praesent accumsan, metus id tincidunt lobortis, elit tortor maximus nunc, id efficitur tellus libero eget tortor."
+        },
+        {
+          "id": 3,
+          "x": 200,
+          "y": 100,
+          "author": "Biedny Developer",
+          "content":
+            "Fusce euismod posuere elit, sit amet posuere ex dapibus eleifend. Praesent accumsan, metus id tincidunt lobortis, elit tortor maximus nunc, id efficitur tellus libero eget tortor."
+        },
+        {
+          "id": 4,
+          "x": 100,
+          "y": 276,
+          "author": "Scrum master bez certyfikatu",
+          "content":
+            "Fusce euismod posuere elit, sit amet posuere ex dapibus eleifend. Praesent accumsan, metus id tincidunt lobortis, elit tortor maximus nunc, id efficitur tellus libero eget tortor."
+        },
+        {
+          "id": 5,
+          "x": 200,
+          "y": 450,
+          "author": "UX ninja",
+          "content":
+            "Fusce euismod posuere elit, sit amet posuere ex dapibus eleifend. Praesent accumsan, metus id tincidunt lobortis, elit tortor maximus nunc, id efficitur tellus libero eget tortor."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Airbnb ale wygodniejszy",
+      "tags": ["mapy", "hotel", "rezerwacja"],
+      "comments": []
+    },
+    {
+      "id": 3,
+      "title": "Pizza portal ale z lepszym jedzeniem",
+      "tags": ["jedzenie", "zamawianie"],
+      "comments": []
+    },
+    {
+      "id": 4,
+      "title": "Twitter ale z 1000 znaków",
+      "tags": ["komunikacja", "wiadmości", "social media"],
+      "comments": []
+    },
+    {
+      "id": 5,
+      "title": "Tinder dla kotów",
+      "tags": ["komunikacja", "randki", "wiadmości", "social media"],
+      "comments": []
+    },
+    {
+      "id": 6,
+      "title": "Facebook ale lepszy",
+      "tags": ["komunikacja", "zdjęcia", "wiadmości", "social media"],
+      "comments": []
+    },
+
+    {
+      "id": 7,
+      "title": "Wykop ale bez polityki",
+      "tags": ["informacjie", "artykuły", "social media"],
+      "comments": []
+    }
+  ]
+}
