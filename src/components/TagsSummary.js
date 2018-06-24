@@ -12,10 +12,7 @@ const TagsSummary = ({ matchtags, tags = [] }) => {
 };
 
 const mapStateToProps = (state, ownProps) => {
-  const matchtags = getMatchtags(state);
-  return {
-    matchtags: matchtags[ownProps.id] || 0
-  };
+  // TODO
 };
 
 export default connect(mapStateToProps)(TagsSummary);

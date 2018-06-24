@@ -98,15 +98,11 @@ const getProjecttags = (state, ownProps) => {
 };
 
 const mapStateToProps = (state, ownProps) => ({
-  projecttags: getProjecttags(state, ownProps),
-  shops: getShops(state),
-  count: getSimilars(state)
+  // TODO
 });
 
 const mapDispatchToProps = dispatch => ({
-  getSimilars: tags =>
-    dispatch({ type: "FIND_PROJECT_SIMILARS", payload: tags }),
-  closeBasket: tags => dispatch({ type: "CLOSE_PROJECT" })
+  // TODO
 });
 
 export default connect(

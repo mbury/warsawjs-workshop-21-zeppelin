@@ -37,12 +37,11 @@ ProjectItem.defaultProps = {
 };
 
 const mapStateToProps = (state, ownProps) => ({
-  project: getProject(state, ownProps)
+  // TODO
 });
 
 const getProject = (state, ownProps) => {
-  const projects = getProjects(state);
-  return find(projects, project => project.id === parseInt(ownProps.id, 10));
+  // TODO
 };
 
 export default connect(mapStateToProps)(ProjectItem);

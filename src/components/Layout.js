@@ -23,13 +23,9 @@ const Home = props => {
 };
 
 const mapStateToProps = (state, ownProps) => ({
-  isAppLoading: isAppLoading(state)
+  // TODO
 });
 
 const loadingMessage = "Za chwilę zostanie wyświetlony projekt";
-export default connect(mapStateToProps)(
-  withLoadingInfo({
-    message: loadingMessage,
-    selector: props => props.isAppLoading
-  })(Home)
-);
+export default connect(mapStateToProps)();
+// TODO

@@ -23,11 +23,11 @@ SelectedTags.defaultProps = {
 };
 
 const mapStateToProps = (state, ownProps) => ({
-  tags: getSelectedtags(state)
+  // TODO
 });
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
-  onDelete: name => dispatch({ type: "DELETE_INGREDIENT", payload: name })
+  // TODO
 });
 
 export default connect(

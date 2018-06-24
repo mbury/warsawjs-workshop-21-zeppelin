@@ -55,14 +55,13 @@ const SidebarComments = ({ comments, point, deselectPoint }) => {
 };
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
-  deselectPoint: point => dispatch({ type: "DESELECT_POINT" })
+  // TODO
 });
 
 const mapStateToProps = (state, ownProps) => {
   getFiltredComments(state, ownProps);
   return {
-    comments: getFiltredComments(state, ownProps),
-    point: getSelectedPoint(state, ownProps)
+    // TODO
   };
 };
 

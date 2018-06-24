@@ -36,8 +36,7 @@ ProjectList.defaultProps = {
 };
 
 const mapStateToProps = (state, ownProps) => ({
-  projects: getFilteredProjects(state),
-  isLoading: isProjectsLoading(state)
+  // TODO
 });
 
 export default connect(mapStateToProps)(ProjectList);

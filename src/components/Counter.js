@@ -10,20 +10,20 @@ class Counter extends React.Component {
 
   plus() {
     this.setState(prevState => ({
-      counter: prevState.counter + 1,
+      // TODO
     }));
   }
   minus() {
     this.setState(prevState => ({
       counter:
-        prevState.counter === 1 ? prevState.counter : prevState.counter - 1,
+       // TODO
     }));
   }
 
   render() {
     return (
       <div>
-        {this.props.children(this.state.counter, this.plus, this.minus)}
+       // TODO
       </div>
     );
   }

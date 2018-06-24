@@ -15,11 +15,11 @@ const tagsItem = ({ name, isSelected, selectIngredient }) => (
 );
 
 const mapStateToProps = (state, ownProps) => ({
-  isSelected: getSelectedtags(state).includes(ownProps.name)
+  // TODO
 });
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
-  selectIngredient: name => dispatch({ type: "SELECT_TAG", payload: name })
+  // TODO
 });
 
 export default connect(

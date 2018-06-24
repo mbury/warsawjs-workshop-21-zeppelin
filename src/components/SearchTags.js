@@ -25,13 +25,11 @@ const Searchtags = ({ addTag, options }) => {
 };
 
 const mapStateToProps = (state, ownProps) => ({
-  options: getNotSelectedtags(state).map(item => {
-    return { key: item, value: item, text: item };
-  })
+  // TODO
 });
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
-  addTag: name => dispatch({ type: "ADD_TAG", payload: name })
+  // TODO
 });
 
 export default connect(

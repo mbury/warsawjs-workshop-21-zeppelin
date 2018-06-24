@@ -8,11 +8,6 @@ const actionsSchemas = {
 
 export const entitiesMiddleware = store => next => action => {
   const { type, payload } = action;
-  const typeSchema = actionsSchemas[type];
-  if (typeSchema) {
-    const { result, entities } = normalize(payload, typeSchema);
-    return next({ type, payload: result, entities });
-  } else {
-    return next({ type, payload });
-  }
+  // TODO
+  return next({ type, payload });
 };

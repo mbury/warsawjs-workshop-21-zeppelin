@@ -42,13 +42,11 @@ const ImageCommnets = ({ points, selectPoint, point, title }) => {
 };
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
-  selectPoint: point => dispatch({ type: "SELECT_POINT", payload: point })
+  // TODO
 });
 
 const mapStateToProps = (state, ownProps) => ({
-  points: getProjectPoints(state, ownProps),
-  point: getSelectedPoint(state, ownProps),
-  title: getProject(state, ownProps).title
+  // TODO
 });
 
 export default connect(
